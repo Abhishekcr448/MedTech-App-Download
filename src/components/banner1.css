@@ -1,0 +1,23 @@
+.banner1-container1 {
+  gap: var(--dl-space-space-unit);
+  width: 1200px;
+  height: 69px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: 143px;
+  padding-bottom: 0px;
+}
+.banner1-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.banner1-container2 {
+  gap: var(--dl-space-space-halfunit);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

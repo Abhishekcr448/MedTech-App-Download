@@ -1,0 +1,125 @@
+.features13-layout226 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+}
+.features13-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.features13-over-title1 {
+  height: auto;
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 600px;
+  line-height: 150%;
+  font-stretch: normal;
+}
+.features13-title1 {
+  text-align: center;
+}
+.features13-description1 {
+  text-align: center;
+}
+.features13-action11 {
+  text-align: center;
+}
+.features13-action21 {
+  text-align: center;
+}
+.features13-over-title2 {
+  font-size: 16px;
+  font-style: normal;
+  text-align: center;
+  font-family: Roboto;
+  line-height: 150%;
+  font-stretch: normal;
+}
+.features13-title2 {
+  text-align: center;
+}
+.features13-description2 {
+  text-align: center;
+}
+.features13-action12 {
+  text-align: center;
+}
+.features13-action22 {
+  text-align: center;
+}
+.features13-text10 {
+  display: inline-block;
+}
+.features13-text11 {
+  display: inline-block;
+}
+.features13-text12 {
+  display: inline-block;
+}
+.features13-text13 {
+  display: inline-block;
+}
+.features13-text14 {
+  display: inline-block;
+}
+.features13-text15 {
+  display: inline-block;
+}
+.features13-text16 {
+  display: inline-block;
+}
+.features13-text17 {
+  display: inline-block;
+}
+.features13-text18 {
+  display: inline-block;
+}
+.features13-text19 {
+  display: inline-block;
+}
+@media(max-width: 991px) {
+  .features13-layout226 {
+    flex-direction: column;
+  }
+  .features13-max-width {
+    flex-direction: column;
+  }
+  .features13-content1 {
+    align-items: center;
+  }
+}
+@media(max-width: 767px) {
+  .features13-actions1 {
+    flex-wrap: wrap;
+  }
+  .features13-actions2 {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 479px) {
+  .features13-max-width {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .features13-button1 {
+    width: 100%;
+  }
+  .features13-button2 {
+    width: 100%;
+  }
+  .features13-button3 {
+    width: 100%;
+  }
+  .features13-button4 {
+    width: 100%;
+  }
+}

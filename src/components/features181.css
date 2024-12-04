@@ -1,0 +1,91 @@
+.features181-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+}
+.features181-max-width {
+  gap: var(--dl-space-space-fiveunits);
+  display: flex;
+  align-items: center;
+}
+.features181-content1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features181-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features181-content2 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 658px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.features181-content3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 658px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.features181-content4 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 658px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.features181-image-container {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.features181-placeholder-image {
+  width: 358px;
+  height: 591px;
+}
+.features181-text16 {
+  display: inline-block;
+}
+.features181-text17 {
+  display: inline-block;
+}
+.features181-text18 {
+  display: inline-block;
+}
+.features181-text19 {
+  display: inline-block;
+}
+.features181-text20 {
+  display: inline-block;
+}
+.features181-text21 {
+  display: inline-block;
+}
+.features181root-class-name {
+  background-image: linear-gradient(135deg, rgba(252, 0, 255, 0.31) 0.00%,rgba(0, 219, 222, 0.32) 100.00%);
+}
+@media(max-width: 991px) {
+  .features181-max-width {
+    gap: var(--dl-space-space-twounits);
+    flex-direction: column-reverse;
+  }
+}

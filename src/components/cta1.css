@@ -1,0 +1,17 @@
+.cta1-container {
+  gap: var(--dl-space-space-threeunits);
+  height: 0px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 0px;
+}
+.cta1-max-width {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
