@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Medtech-App-Download/static/css/main.f04a9dff.css",
-    "main.js": "/Medtech-App-Download/static/js/main.9fc678f8.js",
+    "main.js": "/Medtech-App-Download/static/js/main.59f85af4.js",
     "index.html": "/Medtech-App-Download/index.html",
     "main.f04a9dff.css.map": "/Medtech-App-Download/static/css/main.f04a9dff.css.map",
-    "main.9fc678f8.js.map": "/Medtech-App-Download/static/js/main.9fc678f8.js.map"
+    "main.59f85af4.js.map": "/Medtech-App-Download/static/js/main.59f85af4.js.map"
   },
   "entrypoints": [
     "static/css/main.f04a9dff.css",
-    "static/js/main.9fc678f8.js"
+    "static/js/main.59f85af4.js"
   ]
 }
