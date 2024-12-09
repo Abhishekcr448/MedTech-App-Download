@@ -91,7 +91,7 @@ const Features18 = (props) => {
 }
 
 Features18.defaultProps = {
-  feature1ImageSrc: '/screenshot%202024-11-30%20091255-1400w.png',
+  feature1ImageSrc: `${process.env.PUBLIC_URL}/screenshot%202024-11-30%20091255-1400w.png`,
   feature1ImageAlt: 'Doctor uploading exercise videos',
   feature1Title: undefined,
   feature1Description: undefined,

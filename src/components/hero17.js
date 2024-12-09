@@ -42,6 +42,25 @@ const Hero17 = (props) => {
               )}
             </a>
           </button>
+          <button >
+            <a
+              href="https://indusapp.store/4dg4ug5j"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="hero17-text3 thq-body-small"
+            >
+              <img
+                src="/Black_Full_Color.png"
+                alt="Button Image"
+                className="hero17-button-image"
+              />
+              {props.action2 ?? (
+                <Fragment>
+                  <span className="hero17-text4"></span>
+                </Fragment>
+              )}
+            </a>
+          </button>
         </div>
       </div>
       <div className="hero17-content2">

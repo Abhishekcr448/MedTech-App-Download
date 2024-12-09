@@ -134,7 +134,7 @@ Features25.defaultProps = {
   feature1ImgAlt: 'Doctor adding exercise video',
   feature3ImgSrc:
     'https://images.unsplash.com/photo-1523942839745-7848c839b661?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzI0MTg4OHw&ixlib=rb-4.0.3&q=80&w=1400',
-  feature1ImgSrc: '/screenshot%202024-11-30%20091321-1400w.png',
+  feature1ImgSrc: `${process.env.PUBLIC_URL}/screenshot%202024-11-30%20091321-1400w.png`,
   feature2ImgSrc:
     'https://images.unsplash.com/photo-1676954856957-925f7d2070cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczMzI0MTg4OHw&ixlib=rb-4.0.3&q=80&w=1400',
   feature2Title: undefined,

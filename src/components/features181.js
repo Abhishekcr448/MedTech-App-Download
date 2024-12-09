@@ -91,7 +91,7 @@ const Features181 = (props) => {
 }
 
 Features181.defaultProps = {
-  feature1ImageSrc: '/screenshot%202024-11-30%20091321-1400w.png',
+  feature1ImageSrc: `${process.env.PUBLIC_URL}/screenshot%202024-11-30%20091321-1400w.png`,
   feature1ImageAlt: 'Image',
   feature1Title: undefined,
   feature1Description: undefined,

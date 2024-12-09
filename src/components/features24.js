@@ -27,7 +27,7 @@ const Features24 = (props) => {
             <span className="features24-text3">Interactive Communication</span>
           </Fragment>
         }
-        feature1ImgSrc="/screenshot%202024-11-30%20091255-200h.png"
+        feature1ImgSrc={`${process.env.PUBLIC_URL}/screenshot%202024-11-30%20091255-200h.png`}
         feature1Description={
           <Fragment>
             <span className="features24-text4">

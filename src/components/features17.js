@@ -115,7 +115,7 @@ Features17.defaultProps = {
   feature1ImageAlt: 'Image',
   feature1Title: undefined,
   rootClassName: '',
-  feature1ImageSrc: '/screenshot%202024-11-30%20091239-1400w.png',
+  feature1ImageSrc: `${process.env.PUBLIC_URL}/screenshot%202024-11-30%20091239-1400w.png`,
   feature1Description: undefined,
   feature1Title1: undefined,
   feature1Description1: undefined,

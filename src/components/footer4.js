@@ -39,7 +39,7 @@ const Footer4 = (props) => {
 Footer4.defaultProps = {
   privacyLink: undefined,
   logoAlt: 'MedTech Logo',
-  logoSrc: '/medtech_logo1-200h.png',
+  logoSrc: `${process.env.PUBLIC_URL}/medtech_logo1-200h.png`,
   rootClassName: '',
 }
 

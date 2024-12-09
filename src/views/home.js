@@ -71,7 +71,7 @@ const Home = (props) => {
             <span className="home-text19">Sign In</span>
           </Fragment>
         }
-        logoSrc="/medtech_logo-1500h.png"
+        logoSrc={`${process.env.PUBLIC_URL}/medtech_logo-1500h.png`}
         page1Description={
           <Fragment>
             <span className="home-text20">Welcome to MedTech App</span>
@@ -102,6 +102,17 @@ const Home = (props) => {
           <Fragment>
             <span className="home-text24">
               Download APK
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </Fragment>
+        }
+        action2={
+          <Fragment>
+            <span className="home-text24">
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -183,7 +194,7 @@ const Home = (props) => {
           </Fragment>
         }
         rootClassName="features17root-class-name"
-        feature1ImageSrc="/screenshot%202024-11-30%20091239-1400w.png"
+        feature1ImageSrc={`${process.env.PUBLIC_URL}/screenshot%202024-11-30%20091239-1400w.png`}
         feature1Description={
           <Fragment>
             <span className="home-text34">
@@ -213,7 +224,7 @@ const Home = (props) => {
               </span>
               <br></br>
               <span>
-                All the past transaction history can also be retrieved. 
+                All the past transaction history can also be retrieved.
               </span>
               <br></br>
             </span>
@@ -384,7 +395,7 @@ const Home = (props) => {
         }
       ></Contact6>
       <Footer4
-        logoSrc="/medtech_logo-1500h.png"
+        logoSrc={`${process.env.PUBLIC_URL}/medtech_logo-1500h.png`}
         privacyLink={
           <Fragment>
             <span className="home-text68">Privacy Policy</span>
