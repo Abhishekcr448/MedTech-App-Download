@@ -50,7 +50,7 @@ const Hero17 = (props) => {
               className="hero17-text3 thq-body-small"
             >
               <img
-                src="/Black_Full_Color.png"
+                src={`${process.env.PUBLIC_URL}/Black_Full_Color.png`}
                 alt="Button Image"
                 className="hero17-button-image"
               />
